@@ -19,7 +19,7 @@ namespace RazorPagesMovie.Models
                 // Look for movies
                 if (context.Movie.Any())
                 {
-                    return
+                    return;
                 }
                 context.Movie.AddRange(
                     new Movie
